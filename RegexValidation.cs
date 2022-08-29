@@ -10,10 +10,10 @@ namespace UserRegistrationProblem
     public  class RegexValidation
     {
        
-        public static string FIRST_NAME_REGEX = "^[A-Z]{1}[A-Za-z}{3}$";
+       // public static string FIRST_NAME_REGEX = "^[A-Z]{1}[A-Za-z}{3}$";
        
         
-        ////public static string LAST_NAME_REGEX = "^[A-Z]{1}[A-Za-z}{3}$";
+        public static string LAST_NAME_REGEX = "^[A-Z]{1}[A-Za-z}{3}$";
 
 
         ////public static string EMAIL_REGEX = "^([A-Za-z\\d-_\\+]+)(\\.[A-Za-z\\d-_]+)?@([a-zA-Z\\d]+)\\.([a-zA-Z]{2,4})(\\.[A-Za-z]{2,4})?$";
@@ -26,16 +26,16 @@ namespace UserRegistrationProblem
         ////public static string PASSWORD_REGEX = "^[A-Za-z0-9]{8,}$";
 
 
-        public bool ValidateFirstName()
+        //public bool ValidateFirstName()
+        //{
+        //    return Regex.IsMatch("Teju", FIRST_NAME_REGEX);
+        //}
+
+        public bool ValidateLasttName()
+        
         {
-            return Regex.IsMatch("Teju", FIRST_NAME_REGEX);
-        }
-
-
-//        public bool ValidateLastName()
-//        {
-//            return Regex.IsMatch("Mate", LAST_NAME_REGEX);
-//        }
+            return Regex.IsMatch("Mate", LAST_NAME_REGEX);
+         }
 
 
 //        public bool ValidateEmail()
