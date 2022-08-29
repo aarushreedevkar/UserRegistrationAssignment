@@ -13,7 +13,7 @@ namespace UserRegistrationProblem
        // public static string FIRST_NAME_REGEX = "^[A-Z]{1}[A-Za-z}{3}$";
        
         
-        public static string LAST_NAME_REGEX = "^[A-Z]{1}[A-Za-z}{3}$";
+     //   public static string LAST_NAME_REGEX = "^[A-Z]{1}[A-Za-z}{3}$";
 
        
 
@@ -22,10 +22,10 @@ namespace UserRegistrationProblem
 
 
 
-public static string MOBILENUMBER_REGEX = "^[91][0-9]{10}$";
+//public static string MOBILENUMBER_REGEX = "^[91][0-9]{10}$";
 
 
-////public static string PASSWORD_REGEX = "^[A-Za-z0-9]{8,}$";
+public static string PASSWORD_REGEX = "^[A-Za-z0-9]{8,}$";
 
 
 //public bool ValidateFirstName()
@@ -47,16 +47,15 @@ public static string MOBILENUMBER_REGEX = "^[91][0-9]{10}$";
 
 
 
-        public bool ValidateMobilenumber()
-       {
-           return Regex.IsMatch("919673683178", MOBILENUMBER_REGEX);
-       }
+       // public bool ValidateMobilenumber()
+       //{
+       //    return Regex.IsMatch("919673683178", MOBILENUMBER_REGEX);
+       //}
 
-
-//        public bool ValidatePassword()
-//        {
-//            return Regex.IsMatch("Aradhy@1", PASSWORD_REGEX);
-//        }
+        public bool ValidatePassword()       
+        {
+            return Regex.IsMatch("Aradhy@1", PASSWORD_REGEX);
+      }
 
 
 //    }
