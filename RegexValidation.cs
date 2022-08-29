@@ -25,37 +25,37 @@ namespace UserRegistrationProblem
 //public static string MOBILENUMBER_REGEX = "^[91][0-9]{10}$";
 
 
-public static string PASSWORD_REGEX = "^[A-Za-z0-9]{8,}$";
+public static string PASSWORD_REGEX = "^[A-Za-z0-9]{8}$";
 
 
-//public bool ValidateFirstName()
-//{
-//    return Regex.IsMatch("Teju", FIRST_NAME_REGEX);
-//}
+        //public bool ValidateFirstName()
+        //{
+        //    return Regex.IsMatch("Teju", FIRST_NAME_REGEX);
+        //}
 
-//public bool ValidateLasttName()
+        //public bool ValidateLasttName()
 
-//{
-//    return Regex.IsMatch("Mate", LAST_NAME_REGEX);
-// }
-
-
-       // public bool ValidateEmail()
-       //{
-       //    return Regex.IsMatch("jyotidhage10@gmail.com", EMAIL_REGEX);
-       // }
+        //{
+        //    return Regex.IsMatch("Mate", LAST_NAME_REGEX);
+        // }
 
 
+        // public bool ValidateEmail()
+        //{
+        //    return Regex.IsMatch("jyotidhage10@gmail.com", EMAIL_REGEX);
+        // }
 
-       // public bool ValidateMobilenumber()
-       //{
-       //    return Regex.IsMatch("919673683178", MOBILENUMBER_REGEX);
-       //}
 
-        public bool ValidatePassword()       
+
+        // public bool ValidateMobilenumber()
+        //{
+        //    return Regex.IsMatch("919673683178", MOBILENUMBER_REGEX);
+        //}
+
+        public bool ValidatePassword()
         {
             return Regex.IsMatch("Aradhy@1", PASSWORD_REGEX);
-      }
+        }
 
 
 //    }
