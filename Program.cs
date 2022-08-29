@@ -14,7 +14,7 @@
 
           //  bool validResult4 = regexValidation.ValidateMobilenumber();
 
-            bool validResult5 = regexValidation.ValidatePassword();
+           bool validResult5 = regexValidation.ValidatePassword();
 
            // Console.WriteLine("firstname"+ " " +validResult1);
 
