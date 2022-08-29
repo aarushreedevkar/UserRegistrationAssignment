@@ -8,9 +8,9 @@
 
            // bool validResult1 = regexValidation.ValidateFirstName();
 
-            bool validResult2 = regexValidation.ValidateLastName();
+           // bool validResult2 = regexValidation.ValidateLastName();
 
-           // bool validResult3 = regexValidation.ValidateEmail();
+            bool validResult3 = regexValidation.ValidateEmail();
 
            // bool validResult4 = regexValidation.ValidateMobilenumber();
 
@@ -18,9 +18,9 @@
 
            // Console.WriteLine("firstname"+ " " +validResult1);
 
-            Console.WriteLine("lastname" + " " + validResult2);
+            //Console.WriteLine("lastname" + " " + validResult2);
 
-            //Console.WriteLine("Email" + " " + validResult3);
+            Console.WriteLine("Email" + " " + validResult3);
 
             //Console.WriteLine("mobileNumber" + " " + validResult4);
 
